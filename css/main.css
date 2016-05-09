@@ -1,0 +1,52 @@
+/* general styles */
+
+
+
+
+
+
+
+.votes_main {
+    position: relative;
+    margin: 10px auto;
+    overflow: hidden;
+    width: 150px;
+}
+.votes_gray {
+    background-image: url("../images/star_gray.png");
+    float: left;
+    height: 22px;
+    position: relative;
+}
+.votes_active {
+     overflow: hidden;
+     
+    background-image: url("../images/star.png");
+    height: 22px;
+    left: 0;
+   
+    top: 0;
+    z-index: 1;
+}
+.votes_buttons {
+    overflow: hidden;
+    position: relative;
+    left: 0;
+     
+    top: 0;
+    z-index: 2;
+}
+.votes_button {
+    overflow: hidden;
+    border: medium none;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+}
+.votes_main span {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    top:20px;
+}

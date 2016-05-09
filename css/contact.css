@@ -1,0 +1,56 @@
+.con_ul
+            {
+                list-style:none;
+                width:100%;
+                margin: 0;
+                padding: 0;
+            }
+            .con_li
+            {	
+                padding-top:5px;
+                padding-bottom:5px;
+                margin-bottom:10px;
+                clear:left;
+                position: relative;
+
+            }
+            ul lilabel
+            {
+                width:20%;
+                display: block;
+                margin-right:2%;
+                text-align:left;
+                line-height:22px;
+            }
+            ul li span.error
+            {
+                font: 11px arial;
+                color:red;
+                margin-left:8px;
+                line-height:22px;
+            }
+            ul li span.passerror
+            {
+                display: block;
+                font: 11px arial;
+                color:red;
+                margin-left:8px;
+                line-height:22px;
+            }
+            ul li .shortfield{
+                width: 45px;
+            }
+         
+		 .contact_block{
+	position:relative;
+	height:30px;
+	width:100px;
+	text-align:center;
+	cursor:pointer;
+	color:#FFF;
+	border: thin solid #eee;
+	background:#9DD929;
+	text-shadow:1px 1px 1px #fff;	
+	border-radius: 10px;
+	}
+		

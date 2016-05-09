@@ -1,0 +1,36 @@
+$('#mp_content_wrapper').find('.mp_lyrics').bind('click',function(){
+					var $this 		= $(this);
+					var $paths		= $this.parent().siblings('.mp_song_info');
+					var title   	= $paths.find('.mp_song_title').html();
+					var yo			= $paths.find('.mp_text').html();
+
+
+
+alert(yo);
+var shah ;
+
+
+if(navigator.appName.search('Microsoft')>-1) 
+{
+	 shah = new ActiveXObject('MSXML2.XMLHTTP');
+}
+else
+{
+	 shah = new XMLHttpRequest(); 
+}
+
+$('#yoyo').bind('click',function bushi() 
+{
+shah.open('get', yo, true); 
+shah.onreadystatechange= mahesh;
+shah.send(null);
+}
+);
+function mahesh() {
+if(shah.readyState==4) {
+var el = document.getElementById('bilgi');
+el.innerHTML = shah.responseText;
+}
+}
+
+});

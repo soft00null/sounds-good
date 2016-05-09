@@ -1,0 +1,123 @@
+			.list_carousel {
+	background-color:#f0f0f0;
+	width: 994px;
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #9DD929;
+	border-right-color: #9DD929;
+	border-bottom-color: #9DD929;
+	border-left-color: #9DD929;
+			}
+			.list_carousel ul {
+	list-style: none;
+	display: block;
+	margin-top: 0;
+	margin-right: 20;
+	margin-bottom: 0;
+	margin-left: 10;	
+			}
+			.list_carousel li {
+				font-family:"Lucida Console", Monaco, monospace;
+				font-size: 10px;
+				color: #999;
+				text-align: center;
+				
+				border: 5px solid #999;
+				width: 100px;
+				height:60px;
+				padding: 0;
+				margin: 6px;
+				
+				float: left;
+			}
+			
+			.boxgrid{
+				width: 100px; 
+				height: 60px; 
+				overflow: hidden; 
+				position: relative; 
+			}
+			
+			
+				.boxgrid img{
+	position: absolute;
+	top: -25px;
+	left: -75px;
+	border: 0;
+				}
+				
+				
+			
+				
+			.boxcaption{
+	float: left;
+	position: absolute;
+	background: #000;
+	height: 40px;
+	width: 105px;
+	opacity: .8;
+
+
+
+				/* For IE 5-7 */
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+	/* For IE 8 */
+				-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+ 			}
+ 				.captionfull .boxcaption  {
+	top:63px;
+	left: -4px;
+	
+ 				}
+		
+		.yoyo{
+			position:relative;
+			left:5px;
+			top:5px;
+			width:90px;
+			height:30px;
+			
+						
+			}
+			
+			.yo1{
+	padding:5px;
+	width:20px;
+	height:20px;
+	background-image: url(../images/pics/video-play.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor:pointer;
+				}
+				
+				.yo2{
+	padding:5px;
+	width:20px;
+	height:20px;
+	background-image: url(../images/pics/add.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor:pointer;
+				}
+				
+				
+				.yo3{
+	padding:5px;
+	width:20px;
+	height:20px;
+	background-image: url(../images/pics/pen.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor:pointer;
+				}
+				
+				

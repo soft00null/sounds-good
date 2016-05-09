@@ -1,0 +1,69 @@
+           
+
+.mp_wrapper{
+	width:1000px;
+	height:600px;
+	
+	position:relative;
+}
+
+.mp_content_wrapper{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:1000px;
+	height:600px;
+	-moz-border-radius:10px 0px 0px 0px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;
+	background-color: transparent;
+	background-image: url(../images/bg.png);
+	background-repeat: repeat;
+	background-position: left top;
+}
+.mp_songs{
+	width:960px;
+	height:600px;
+	position:absolute;
+	right:20px;
+	top:20px;
+        left:20px;
+}
+.mp_options{
+	width:100px;
+	float:right;
+}
+.mp_options span{
+	text-indent:-9000px;
+	width:32px;
+	height:32px;
+	margin:2px 2px 0px 0px;
+	float:left;
+	cursor:pointer;
+}
+.mp_options span.mp_addpl{
+	background:transparent url(../images/a.png) no-repeat center center;
+}
+.mp_options span.mp_play{
+	background:transparent url(../images/pl.png) no-repeat center center;
+}
+
+#slide1 {
+	height: 117px;
+	width: 1000px;
+}
+#slide {
+	background-color: #939;
+	height: 100px;
+	width: 1000px;
+	position: relative;
+}
+#slide3 {
+	background-color: #C3F;
+	height: 100px;
+	width: 1000px;
+	position: relative;
+}
+
+
+
